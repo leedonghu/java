@@ -3,7 +3,7 @@ package p02.lecture;
 public class A03TypeByte {
 	public static void main(String[] args) {
 		//byte : 1byte 크기의 정수를 저장할 수 있음
-		//1byte == 8bite
+		//1byte == 8bit
 		//0000 0000 ~ 1111 1111
 		
 		//십진법 0 == 2진법 0000 0000
