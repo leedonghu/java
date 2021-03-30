@@ -1,6 +1,6 @@
 package p99.codingbat;
 
-public class WarmUp1Solution {
+public class WarmUp01Solution {
 
 	public String backAround(String str) {
 		  String res = "";
