@@ -9,5 +9,13 @@ public class Exercise06 {
 			}
 			System.out.println();
 		}
+		
+		String line ="";
+		
+		for (int i=0; i<5; i++) {
+			line +="*";
+			System.out.println(line);
+		}
 	}
+	
 }
