@@ -19,6 +19,6 @@ public class A23ForEach {
 			t += n;
 		System.out.println(t);
 		}
-//		System.out.println(t);
+		System.out.println(t);
 	}
 }
