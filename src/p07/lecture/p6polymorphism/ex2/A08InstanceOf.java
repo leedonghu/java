@@ -1,0 +1,30 @@
+package p07.lecture.p6polymorphism.ex2;
+
+public class A08InstanceOf {
+	public static void main(String[] args) {
+		//instancof : 결과-boolean
+		//왼쪽항 참조변수, 오른쪽항 type
+		//참조변수가 가리키는 인스턴스가 오른쪽항 type이면 true
+		//그렇지 않으면 false
+		
+		KindaCat k1 = new Tiger();
+		System.out.println(k1 instanceof Tiger);
+		System.out.println(k1 instanceof KindaCat);
+		System.out.println(k1 instanceof Cat);
+		
+		System.out.println();
+		KindaCat k2 = new KindaCat();
+		System.out.println(k2 instanceof KindaCat);
+		System.out.println(k2 instanceof Tiger);
+		System.out.println(k2 instanceof Cat);
+
+		if(k1 instanceof Tiger) {
+			
+			Tiger t1 = (Tiger)k1;
+		}
+		if(k1 instanceof Cat) {
+			
+			Cat c1 = (Cat) k1;
+		}
+	}
+}
