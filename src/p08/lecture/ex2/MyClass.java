@@ -1,0 +1,14 @@
+package p08.lecture.ex2;
+
+public class MyClass implements MyInterface {
+	@Override
+	public void method1() {
+		System.out.println("method1");	
+	}
+	@Override
+	public void method2() {
+		System.out.println("method2");	
+	}
+	//인터페이스의 default method 생략됨
+
+}
