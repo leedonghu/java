@@ -165,5 +165,9 @@ public class A01RegularExpression {
 		regex1 = "[가-힣]+";
 		str1 = "가나다라바";
 		System.out.println(Pattern.matches(regex1, str1));
+		
+		regex1 = "\\p{IsHangul}+";
+		str1 = "ㅂㅈㄷㅁㄴㅇㄳㅎ";
+		System.out.println(Pattern.matches(regex1, str1));
 	}
 }
