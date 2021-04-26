@@ -6,11 +6,11 @@ public class A08WildCard {
 		putBox(new Box8<Object>());
 		
 		getBox(new Box8<MyClass8>());
-		getBox(new Box8<Child8>());
+		getBox(new Box8<child8>());
 		
 		allBox(new Box8<Object>());
 		allBox(new Box8<MyClass8>());
-		allBox(new Box8<Child8>());
+		allBox(new Box8<child8>());
 	}
 	public static void putBox(Box8<? super MyClass8> box) {
 		box.setField(new MyClass8());
