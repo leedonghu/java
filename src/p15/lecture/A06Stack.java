@@ -2,7 +2,7 @@ package p15.lecture;
 
 import java.util.Stack;
 
-public class A05Stack {
+public class A06Stack {
 	public static void main(String[] args) {
 		Stack<Integer> stack = new Stack<>();
 		
