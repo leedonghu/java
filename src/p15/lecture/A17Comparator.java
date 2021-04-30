@@ -36,7 +36,7 @@ class Dog{
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return id;
+		return "Dog [id=" + id + "]";
 	}
 }
 
