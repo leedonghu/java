@@ -34,11 +34,33 @@ public class PracticeExample {
 		}
 	}
 
-	private static void bookPrice() {
-		for(int i : set2) {
-			i += i;
+	private static void comparePrice() {
+		int i = bookPrice();
+		if(i<10000) {
+			System.out.println("옷");
+		}else if(i<20000) {
+			System.out.println("치킨");
+		}else if(i<30000) {
+			System.out.println("피자 치킨 세트");
+		}else if(i<40000) {
+			System.out.println("스테이크");
+		}else if(i<50000) {
+			System.out.println("악세서리");
+		}else if(i<100000) {
+			System.out.println("비행기 티켓");
+		}else  {
+			System.out.println("책을 많이 읽으시는 군요");
 		}
-		
+	}
+
+	private static int bookPrice() {
+		int i=0;
+		for(int io : set2) {
+			i += io;
+			
+		}
+		System.out.println(i);
+		return i;
 	}
 
 	private static void bookList() {
@@ -54,8 +76,8 @@ public class PracticeExample {
 		
 		
 		System.out.print("책이름:");
-		String bookName = scanner.nextLine();
-		
+		String bookName = scanner.next();
+		System.out.println();
 		System.out.print("책 가격:");
 		int bookPrice = scanner.nextInt();
 		Book book = new Book(bookName, bookPrice);
